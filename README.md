@@ -24,4 +24,4 @@ just move this to the `data` directory.
 
 3. Update [parcels/tools/exampledata_utils.py](https://github.com/OceanParcels/parcels/blob/main/parcels/tools/exampledata_utils.py) accordingly to include your new dataset.
 
-All NetCDF files are tracked by Git LFS. If you want to expand the files included in Git LFS, see the [GitHub docs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage).
+Git LFS isn't used for this repo as the datasets are small, and we are using the GitHub `https://raw.githubusercontent.com/` to get the data.
