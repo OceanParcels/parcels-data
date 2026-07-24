@@ -12,7 +12,7 @@ See [parcels/tools/exampledata_utils.py](https://github.com/OceanParcels/parcels
 ## Adding a new dataset
 
 1. Choose a (filename safe) name for your dataset. This will be used as a key to refer to the dataset in the Parcels, and will also be the name of the folder.
-2. Assuming you have your folder with your data files. E.g., 
+2. Assuming you have your folder with your data files. E.g.,
 
 ```
 MovingEddies_data
@@ -22,7 +22,7 @@ MovingEddies_data
 ```
 just move this to the `data` directory.
 
-3. Update [parcels/tools/exampledata_utils.py](https://github.com/OceanParcels/parcels/blob/main/parcels/tools/exampledata_utils.py) accordingly to include your new dataset.
+3. Update [parcels/_datasets/remote.py](https://github.com/Parcels-code/Parcels/blob/main/src/parcels/_datasets/remote.py) accordingly to include your new dataset.
 
 ---
 
